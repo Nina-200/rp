@@ -1,7 +1,7 @@
-# Ignoriraj vse znotraj mape urnik
-/05-latex/urnik/*
-
-# Razen datoteke urnik.tex v tisti mapi
-!/05-latex/urnik/urnik.tex
-
-# (Če želiš izvzeti tudi .gitignore v korenski mapi, ga ta običajno ne ignorira sam od sebe, razen če eksplicitno ne zapišeš *)
+*.aux
+*.pdf
+!slika.pdf
+*.log
+*.gz
+*.fls
+*.fdb_latexmk
